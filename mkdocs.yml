@@ -248,6 +248,7 @@ body: >
           - posts:
               - blog:
                 - posts/blog/first-post.md
+                - posts/blog/first-post.md
           - adafruit:
               - bluefruit:
                 - reference/libs/adafruit/bluefruit/docs/index.md
@@ -740,6 +741,7 @@ body: >
     - 4ZeroBox:
       - demos/4zerobox/Hello_4ZeroBox.md
       - demos/4zerobox/Multi_Blinking.md
+
 
               
   plugins:
