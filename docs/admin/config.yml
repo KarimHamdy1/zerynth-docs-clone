@@ -11,7 +11,7 @@ media_library:
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+    folder: "posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -23,7 +23,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "doc"
     label: "Doc"
-    folder: "_posts/blog"
+    folder: "posts/blog"
     create: true
     slug: "{{slug}}"
     preview_path: _posts/blog/{{slug}}
@@ -33,7 +33,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "string"}
   - name: "extensions"
     label: "Extensions"
-    folder: "_posts/blog"
+    folder: "posts/blog"
     create: true
     slug: "{{slug}}"
     fields:
