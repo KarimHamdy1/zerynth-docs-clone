@@ -248,7 +248,9 @@ body: >
           - posts:
               - blog:
                 - posts/blog/first-post.md
-                - reference/libs/amphenol/dlh/docs/index.md
+  	- not-ada-fruit:
+              - bluefruit:
+                - reference/libs/adafruit/bluefruit/docs/index.md
           - adafruit:
               - bluefruit:
                 - reference/libs/adafruit/bluefruit/docs/index.md
@@ -741,6 +743,7 @@ body: >
     - 4ZeroBox:
       - demos/4zerobox/Hello_4ZeroBox.md
       - demos/4zerobox/Multi_Blinking.md
+
 
 
 
