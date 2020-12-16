@@ -58,4 +58,7 @@ collections:
         name: "mkdocs-yml"
         file: "mkdocs.yml"
         fields:
-        - {label: "Body", name: "body", widget: "string"}
+        - { name: body, label: Body, widget: code }
+        
+
+      
