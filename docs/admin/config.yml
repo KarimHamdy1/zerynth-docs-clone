@@ -26,6 +26,7 @@ collections:
     folder: "_posts/blog"
     create: true
     slug: "{{slug}}"
+    preview_path: _posts/blog/{{slug}}
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
