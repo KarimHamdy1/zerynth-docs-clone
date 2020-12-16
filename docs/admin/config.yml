@@ -21,3 +21,21 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "doc"
+    label: "Doc"
+    folder: "_posts/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "string"}
+  - name: "extensions"
+    label: "Extensions"
+    folder: "_posts/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "string"}
