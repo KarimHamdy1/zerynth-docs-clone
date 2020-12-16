@@ -40,11 +40,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "string"}
-  - name: "pages"
-    label: "Pages"
+  - label: "Pages"
+    name: "pages"
     files:
-      - name: "first-post"
-        file: docs/posts/blog/first-post.md
+      - label: "first-post"
+        name: "first-post"
+        file: "docs/posts/blog/first-post.md"
         preview_path: about-the-project
         fields:
           - {label: Title, name: title, widget: string}
