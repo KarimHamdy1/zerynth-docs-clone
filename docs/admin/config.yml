@@ -40,7 +40,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "string"}
-  - name: pages
+  - name: "pages"
+    label: "Pages"
     files:
       - name: "first-post"
         file: docs/posts/blog/first-post.md
