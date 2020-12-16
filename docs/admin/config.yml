@@ -57,5 +57,4 @@ collections:
       - label: "mkdocs-yml"
         name: "mkdocs-yml"
         file: "mkdocs.yml"
-        fields:
-          - {label: "Body", name: "body", widget: "Code"}
+        widget: 'code'
