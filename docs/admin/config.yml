@@ -51,3 +51,13 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Publish Date", name: "date", widget: "string"}
+  - label: "mkdocs-yml"
+    name: "mkdocs-yml"
+    files:
+      - label: "mkdocs-yml"
+        name: "mkdocs-yml"
+        file: "mkdocs.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Publish Date", name: "date", widget: "string"}
