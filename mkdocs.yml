@@ -213,6 +213,9 @@ nav:
       - reference/boards/xplained_same54/docs/index.md
       - reference/boards/xplained_samg55/docs/index.md
     - Libraries:
+        - posts:
+            - blog:
+              - posts/blog/first-post.md
         - adafruit:
             - bluefruit:
               - reference/libs/adafruit/bluefruit/docs/index.md
