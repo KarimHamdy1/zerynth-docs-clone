@@ -58,7 +58,7 @@ collections:
         name: "mkdocs-yml"
         file: "mkdocs.yml"
         fields:
-        - { name: body, label: Body, widget: code }
+        - { name: body, label: Body, widget: code,output_code_only: true }
         
 
       
