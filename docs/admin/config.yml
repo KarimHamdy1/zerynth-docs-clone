@@ -60,7 +60,7 @@ collections:
         extension: "yml"
         format: "yaml-frontmatter"
         fields:
-        - { label: 'Text', name: 'body', widget: 'code' }
+        - { label: 'Text', name: 'body', widget: 'code',output_code_only: 'true' }
         
 
       
