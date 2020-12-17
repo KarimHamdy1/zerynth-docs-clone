@@ -58,7 +58,7 @@ collections:
         name: "mkdocs-yml"
         file: "mkdocs.yml"
         fields:
-        - { name: body, label: Body, widget: markdown,modes: raw }
+        - { name: 'body', label: 'Body', widget: 'markdown',modes: ['raw','rich_text' ]}
         
 
       
