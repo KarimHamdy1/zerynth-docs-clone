@@ -57,8 +57,9 @@ collections:
       - label: "mkdocs-yml"
         name: "mkdocs-yml"
         file: "mkdocs.yml"
+        extension: "yaml-frontmatter"
         fields:
-        - { label: 'Text', name: 'body', widget: 'markdown' }
+        - { label: 'Text', name: 'body', widget: 'code' }
         
 
       
