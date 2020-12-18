@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: KarimHamdy1/zerynth-docs-clone
   branch: master # Branch to update (optional; defaults to master)
   publish_mode: editorial_workflow
   media_folder: "images" # Media files will be stored in the repo under images/uploads
@@ -46,13 +47,15 @@ collections:
       - label: "first-post"
         name: "first-post"
         file: "docs/posts/blog/first-post.md"
-        preview_path: about-the-project
+        preview_path: "docs/posts/blog/first-post.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Publish Date", name: "date", widget: "string"}
   - label: "mkdocs-yml"
     name: "mkdocs-yml"
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
     files:
       - label: "mkdocs-yml"
         name: "mkdocs-yml"
