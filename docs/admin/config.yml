@@ -1,8 +1,8 @@
 backend:
-  name: git-gateway
-  publish_mode: editorial_workflow
-  media_folder: "images" # Media files will be stored in the repo under images/uploads
-  public_folder: "images/uploads"
+name: git-gateway
+publish_mode: editorial_workflow
+media_folder: "images" # Media files will be stored in the repo under images/uploads
+public_folder: "images/uploads"
 media_library:
   name: uploadcare
   config:
