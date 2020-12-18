@@ -1,5 +1,5 @@
 ---
-title: Bluefruit
+title: this is a test
 intro: |-
   zxczxczxczxczxczxc
 
@@ -40,7 +40,7 @@ date: "2020"
 ---
 Adafruit Bluefruit LE SPI products family enables Bluetooth Low Energy connectivity to anything that supports SPI communication. Thanks to the connection between the Bluefruit LE chip and the device using the common four-pin SPI interface (MISO, MOSI, SCK and CS/SSEL), it is possible to enable the solution with wireless communication features; more information at [Adafruit dedicated page](https://www.adafruit.com/products/2746).
 
-# Technical Details[](https://jolly-fermat-a53c07.netlify.app/reference/libs/adafruit/bluefruit/docs/#technical-details "Permanent link")
+# this is a test
 
 * ARM Cortex M0 core running at 16MHz
 * 256KB flash memory
@@ -54,6 +54,8 @@ Adafruit Bluefruit LE SPI products family enables Bluetooth Low Energy connectiv
 Here below, the Zerynth driver for the Adafruit Bluefruit LE SPI products family and some examples to better understand how to use it.
 
 Contents:
+
+asndaskndkjsafsa
 
 * [Bluefruit Module](https://jolly-fermat-a53c07.netlify.app/latest/reference/libs/adafruit/bluefruit/docs/bluefruit/)
 * [BLEStream class](https://jolly-fermat-a53c07.netlify.app/latest/reference/libs/adafruit/bluefruit/docs/bluefruit/#class-blestream)
