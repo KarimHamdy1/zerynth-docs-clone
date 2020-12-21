@@ -1,5 +1,5 @@
 ---
-title: editorial worflow
+title: editorial worflow edit
 intro: |-
   zxczxczxczxczxczxc
 
@@ -40,7 +40,7 @@ date: "2020"
 ---
 Adafruit Bluefruit LE SPI products family enables Bluetooth Low Energy connectivity to anything that supports SPI communication. Thanks to the connection between the Bluefruit LE chip anasdasd the device using the common four-pin SPI interface (MISO, MOSI, SCK and CS/SSEL), it is possible to enable the solution with wireless communication features; more information at [Adafruit dedicated page](https://www.adafruit.com/products/2746).
 
-editorial woflow
+editorial woflow edit
 
 ARM Cortex M0 core running at 16MHz
 
