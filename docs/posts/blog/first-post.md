@@ -1,5 +1,5 @@
 ---
-title: anything
+title: Test Neri Change
 intro: |-
   zxczxczxczxczxczxc
 
@@ -37,6 +37,8 @@ team:
     position: asd
     photo: https://ucarecdn.com/669f14c3-0ea3-4b8c-9f71-3bc730fb044a/
 date: "2020"
+thumbnail: https://ucarecdn.com/a9cabb5e-2a4c-4659-9dcd-471d286ad012/
+rating: 2
 ---
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\
 \
@@ -61,4 +63,4 @@ asndaskndkjsafsa
 
 [](https://jolly-fermat-a53c07.netlify.app/posts/blog/first-post/)
 
-![]()
+![](https://ucarecdn.com/b0d1a5e0-a74e-42de-8f9f-9a05f8effdab/)
