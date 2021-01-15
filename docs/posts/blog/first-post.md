@@ -1,5 +1,5 @@
 ---
-title: generic library
+title: anything
 intro: |-
   zxczxczxczxczxczxc
 
@@ -38,17 +38,14 @@ team:
     photo: https://ucarecdn.com/669f14c3-0ea3-4b8c-9f71-3bc730fb044a/
 date: "2020"
 ---
-
-
-ARM Cortex M0 core running at 16MHz
-
-* 256KB flash memory
-* 32KB SRAM
-* Transport: SPI at 4MHz with HW IRQ
-* 5V-safe inputs
-* On-board 3.3V voltage regulation
-* Bootloader with support for safe OTA firmware updates
-* Easy AT command set to get up and running quickly
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\
+\
+\
+\
+\
+\
+\
+Easy AT command set to get up and running quickly
 
 Here below, the Zerynth driver for the Adafruit Bluefruit LE SPI products family and some examples to better understand how to use it.
 
