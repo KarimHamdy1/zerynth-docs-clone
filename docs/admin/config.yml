@@ -9,57 +9,25 @@ media_library:
     publicKey: demopublickey
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "docs/posts/blog" # The path to the folder where the documents are stored
+    label: "New Page" # Used in the UI
+    folder: "docs/new_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "doc"
-    label: "Doc"
-    folder: "docs/posts/blog"
-    create: true
-    slug: "{{slug}}"
-    preview_path: posts/blog/{{slug}}
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
-  - name: "extensions"
-    label: "Extensions"
-    folder: "docs/posts/blog"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
   - label: "Pages"
     name: "pages"
     files:
-      - label: "first-post"
-        name: "first-post"
-        file: "docs/posts/blog/first-post.md"
-        preview_path: "docs/posts/blog/first-post.md"
+      - label: "Zerynth_in_a_nutshell"
+        name: "Zerynth in a nutshell"
+        file: "docs/intro/index.md"
+        preview_path: "docs/intro/index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Publish Date", name: "date", widget: "string"}
-  - label: "mkdocs-yml"
-    name: "mkdocs-yml"
-    slug: "{{slug}}"
-    preview_path: "{{slug}}"
-    files:
-      - label: "mkdocs-yml"
-        name: "mkdocs-yml"
-        file: "mkdocs.yml"
-        fields:
-        - { label: 'Text', name: 'body', widget: 'file'}
+
         
 
       
