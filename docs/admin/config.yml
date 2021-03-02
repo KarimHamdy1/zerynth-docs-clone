@@ -21,7 +21,7 @@ collections:
     name: "pages"
     files:
       - label: "Zerynth_in_a_nutshell"
-        name: "Zerynth in a nutshell"
+        name: "Zerynth_in_a_nutshell"
         file: "docs/intro/index.md"
         preview_path: "docs/intro/index.md"
         fields:
