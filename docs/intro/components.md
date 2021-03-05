@@ -1,11 +1,13 @@
+---
+title: asdasdasd
+---
 ## **Zerynth OS**
 
 A multithreaded real-time OS that supports hybrid Python/C coding, advanced security and connectivity features, advanced power-management, FOTA, and provides real hardware independence.
 
-<a style="font-size: 15px; margin-right: 0px;" target="_blank"  href="https://www.zerynth.com/zos/" class="md-button md-button--primary">
+<a style="font-size: 15px; margin-right: 0px;" target="_blank"  href="https://www.zeasdasdrynth.com/zos/" class="md-button md-button--primary">
             Learn more
           </a>
-
 
 ## **Zerynth Device Manager**
 
@@ -16,6 +18,7 @@ Zerynth Device Manager (ZDM) is a device and data management service that makes 
           </a>
 
 ## **Zerynth Hardware**
+
 ### **4ZeroBox**
 
 4ZeroBox, a versatile data acquisition unit, programmable in hybrid Python/C thanks to the Zerynth OS. 4ZeroBox is ideal as a machine-to-cloud interface to plug into old and modern industrial machines.
@@ -23,8 +26,6 @@ Zerynth Device Manager (ZDM) is a device and data management service that makes 
 <a style="font-size: 15px; margin-right: 0px;" target="_blank" href="/latest/4zp/4ZeroBox/" class="md-button md-button--primary">
             Learn more
           </a>
-
-  
 
 ## **Zerynth Powered Devices**
 
@@ -34,15 +35,11 @@ These Zerynth powered solutions will inspire you to look beyond your expectation
             Learn more
           </a>
 
-  
-
 ## **Zerynth Supported Devices**
 
 <a style="font-size: 15px; margin-right: 0px;" target="_blank" href="/latest/reference/boards/" class="md-button md-button--primary">
             Learn more
           </a>
-
-  
 
 ## **Zerynth 4.0 Platform**
 
