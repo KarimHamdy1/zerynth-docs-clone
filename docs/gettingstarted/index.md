@@ -3,7 +3,7 @@ title: jscxjs sjc
 ---
 # Getting Started
 
-To get you up and running with Zerynth, you need to install the **Zerynth SDK**.
+To get you up and running with Zerynth, you need to instaascascll the **Zerynth SDK**.
 
 The Zerynth SDK is the gateway to our platform and includes:
 
