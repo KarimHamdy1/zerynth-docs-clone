@@ -1,7 +1,4 @@
----
-title: hey
----
-heyyyyyyyyyyyyyyyyyyyyy\
+
 Zerynth is a platform that simplifies and accelerates the development of Internet of Things (IoT) applications.
 Zerynth offers developers, system integrators, and businesses a way to enable IoT for their products, rapidly.
 Zerynth includes various tools, software and hardware units. The entry point to the Zerynth journey is not fixed, it depends on the user's needs and goals.
