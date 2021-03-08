@@ -46,7 +46,6 @@ letter-spacing:-0.01em;
 text-decoration: underline;
 text-decoration-style:dotted;
 text-decoration-color: var(--md-default-fg-color--light);
-visibility:hidden;
 }
 
 .md-typeset h5{text-transform:none}
@@ -96,7 +95,6 @@ h5 {
 */
 .md-sidebar--secondary .md-nav__item {
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 
