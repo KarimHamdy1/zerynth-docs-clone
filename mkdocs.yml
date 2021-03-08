@@ -716,7 +716,7 @@ site_name: Zerynth Documentation
 theme:
     custom_dir: material
     favicon: images/favicon.png
-    features: [tabs]
+    features: [tabs,sticky]
     font: {code: Roboto Mono, text: Roboto}
     logo: images/favicon-white.png
     name: material
